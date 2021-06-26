@@ -1,8 +1,8 @@
-import Home from "./containers/Home";
+import Routes from "./Routes";
 
 function App() {
   return (
-   <Home /> 
+    <Routes/>
   );
 }
 
