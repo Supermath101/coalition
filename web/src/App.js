@@ -1,11 +1,11 @@
+
 import Home from "./containers/Home";
 import { Wrapper } from "./components/Wrapper";
+import Routes from "./Routes";
 
 function App() {
   return (
-    <Wrapper>
-      <Home/>
-    </Wrapper>
+    <Routes/>
   );
 }
 
