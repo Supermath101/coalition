@@ -7,7 +7,7 @@ export const Wrapper = ({
 }) => {
   return (
     <Box
-      maxW={variant === "regular" ? "90%" : "50%"}
+      maxW={variant === "regular" ? "90%" : "480px"}
       w="100%"
       mt={8}
       mx="auto"
