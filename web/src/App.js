@@ -1,8 +1,11 @@
 import Home from "./containers/Home";
+import { Wrapper } from "./components/Wrapper";
 
 function App() {
   return (
-   <Home /> 
+    <Wrapper>
+      <Home/>
+    </Wrapper>
   );
 }
 
